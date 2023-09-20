@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblechem",
+  "version": "${version}",
+  "name": "CobbleChem",
+  "description": "Add-on for Cobblemon and Alchemistry integrating cobblemon with chemlib",
+  "authors": [
+    "kushcola"
+  ],
+  "contact": {
+    "homepage": "https://github.com/antonhibl/cobblechem"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/cobblechem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cobblechem.fabric.CobbleChemFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.77",
+    "cobblemon": ">=1.3.0",
+    "chemlib": "1.0.1",
+    "alchemistry": "1.0.2"
+  }
+}
